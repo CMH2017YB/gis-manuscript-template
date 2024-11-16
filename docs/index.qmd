@@ -9,6 +9,11 @@ df-print: kable
 bibliography: GIS_Manuscript.bib
 title-block-banner: "#E69F0095"
 title-block-banner-color: "black"
+format:
+  html:
+    df-print: kable
+  pdf: default
+prefer-html: true
 ---
 
 ## Introduction
