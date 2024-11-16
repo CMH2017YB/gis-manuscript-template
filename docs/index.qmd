@@ -13,7 +13,9 @@ title-block-banner-color: "black"
 format:
   html:
     df-print: kable
-  pdf: default
+  pdf:
+    # https://quarto.org/docs/reference/formats/pdf.html
+    link-citations: true
 prefer-html: true
 ---
 
